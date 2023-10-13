@@ -65,6 +65,16 @@ $(document).ready(function () {
         height: 800
     });
 
+    function playMusic() {
+        debugger;
+        document.body.addEventListener("click", play)
+    };
+
+    function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
+
     /***************** Tooltips ******************/
     $('[data-toggle="tooltip"]').tooltip();
 
